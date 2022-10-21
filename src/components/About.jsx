@@ -7,7 +7,7 @@ import manoj_cer_3 from '../assets/img/about/3.jpg';
 import manoj_cer_4 from '../assets/img/about/4.jpg';
 import manoj_cer_5 from '../assets/img/about/5.jpg';
 import manoj_cer_6 from '../assets/img/about/6.jpg';
-
+import manoj_cer_7 from '../assets/img/about/6.jpg';
 
 let About = () => {
     return (

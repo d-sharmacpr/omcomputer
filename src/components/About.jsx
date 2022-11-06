@@ -8,10 +8,19 @@ import manoj_cer_4 from '../assets/img/about/4.jpg';
 import manoj_cer_5 from '../assets/img/about/5.jpg';
 import manoj_cer_6 from '../assets/img/about/6.jpg';
 import manoj_cer_7 from '../assets/img/about/4.jpg';
+import {Helmet} from "react-helmet";
 
 let About = () => {
     return (
         <>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Om Computer Garkha | About</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Om Computer Garkha Saran Bihar,841311. Computer accessories,Computer/Laptop Repair,Laptop Chip-Level Repair,LCD/LED Repair."/>
+                <meta name="keywords" content="Om Computer,Om Computer Garkha,Garkha,Garkha Saran,Garkha Computer,Computer Garkha,Shop Garkha,Garkha Mobile,LED Garkha,LCD"/>
+                <meta name="author" content="om computer garkha"/>
+            </Helmet>
 
             <div className="container-flow">
                 <div className="p-3 mx-4">

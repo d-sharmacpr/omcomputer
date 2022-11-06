@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 import home_car1 from '../assets/img/home_car2.jpg'
 import home_car2 from '../assets/img/home_car1.jpg'
 import home_car3 from '../assets/img/home_car3.jpg'
@@ -8,9 +9,19 @@ import home_c3 from '../assets/img/home_laptop_chip.jpg'
 import home_logo from '../assets/img/logo.png'
 
 
+
 let Home = () => {
     return (
+        
         <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Om Computer Garkha</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Om Computer Garkha Saran Bihar,841311. Computer accessories,Computer/Laptop Repair,Laptop Chip-Level Repair,LCD/LED Repair."/>
+                <meta name="keywords" content="Om Computer,Om Computer Garkha,Garkha,Garkha Saran,Garkha Computer,Computer Garkha,Shop Garkha,Garkha Mobile,LED Garkha,LCD"/>
+                <meta name="author" content="om computer garkha"/>
+            </Helmet>
 
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">

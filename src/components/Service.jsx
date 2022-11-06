@@ -1,4 +1,5 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 
 import h_antivirus from '../assets/img/service/head_antivirus.jpg';
 import h_comp_ass from '../assets/img/service/head_computer_ass.jpg';
@@ -38,6 +39,14 @@ import s24_epson from '../assets/img/service/24_epson_ink.jpg'
 let Service = () => {
     return (
         <>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Om Computer Garkha | Services</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Om Computer Garkha Saran Bihar,841311. Computer accessories,Computer/Laptop Repair,Laptop Chip-Level Repair,LCD/LED Repair."/>
+                <meta name="keywords" content="Om Computer,Om Computer Garkha,Garkha,Garkha Saran,Garkha Computer,Computer Garkha,Shop Garkha,Garkha Mobile,LED Garkha,LCD"/>
+                <meta name="author" content="om computer garkha"/>
+            </Helmet>
 
             {/* <!---------------------------services card--------------------------> */}
             <section>

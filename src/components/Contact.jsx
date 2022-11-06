@@ -1,8 +1,17 @@
 import React from "react";
+import {Helmet} from "react-helmet";
 
 let Contact = () => {
     return (
         <>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Om Computer Garkha | Contact</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Om Computer Garkha Saran Bihar,841311. Computer accessories,Computer/Laptop Repair,Laptop Chip-Level Repair,LCD/LED Repair."/>
+                <meta name="keywords" content="Om Computer,Om Computer Garkha,Garkha,Garkha Saran,Garkha Computer,Computer Garkha,Shop Garkha,Garkha Mobile,LED Garkha,LCD"/>
+                <meta name="author" content="om computer garkha"/>
+            </Helmet>
 
             {/* <!--Section: Contact v.1--> */}
             <section className="section p-3 m-3">

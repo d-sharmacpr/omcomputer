@@ -17,7 +17,7 @@ let Home = () => {
             <Helmet>
                 <meta charSet="utf-8" />
                 <title>Om Computer Garkha</title>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="canonical" href="https://omcomputerinfo.in" />
                 <meta name="description" content="Om Computer Garkha Saran Bihar,841311. Computer accessories,Computer/Laptop Repair,Laptop Chip-Level Repair,LCD/LED Repair."/>
                 <meta name="keywords" content="Om Computer,Om Computer Garkha,Garkha,Garkha Saran,Garkha Computer,Computer Garkha,Shop Garkha,Garkha Mobile,LED Garkha,LCD"/>
                 <meta name="author" content="om computer garkha"/>

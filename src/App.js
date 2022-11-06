@@ -15,14 +15,14 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Fragment>
-     <Navbar/> 
+     <Navbar/>
+
     <Router>
-    
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="service" element={<Service />} />
-      <Route path="contact" element={<Contact />} />
+      <Route path="/" exact element={<Home />} />
+      <Route path="/about" exact element={<About />} />
+      <Route path="/service" exact element={<Service />} />
+      <Route path="/contact" exact element={<Contact />} />
     </Routes>
   </Router>
 

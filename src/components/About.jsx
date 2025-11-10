@@ -17,7 +17,7 @@ let About = () => {
                 <meta charSet="utf-8" />
                 <title>Om Computer Garkha | About</title>
                 <link rel="canonical" href="https://omcomputerinfo.in" />
-                <meta name="description" content="Om Computer Garkha Saran Bihar,841311. Computer accessories,Computer/Laptop Repair,Laptop Chip-Level Repair,LCD/LED Repair."/>
+                <meta name="description" content="Om Computer Garkha Saran Bihar,841311. CCTV Camera,Printer Repairing, refurbished laptop, Computer accessories,Computer/Laptop Repair,Laptop Chip-Level Repair,LCD/LED Repair."/>
                 <meta name="keywords" content="Om Computer,Om Computer Garkha,Garkha,Garkha Saran,Garkha Computer,Computer Garkha,Shop Garkha,Garkha Mobile,LED Garkha,LCD"/>
                 <meta name="author" content="om computer garkha"/>
             </Helmet>
@@ -29,9 +29,9 @@ let About = () => {
                 </div>
                 <div className="mx-5">
                     <ul>
-                        <li>We are the team of highly-skilled and qualified technicians for all your laptop repairs, our services is one of the best laptop repair services in Chapra Saran Bihar.</li>
-                        <li>We repair all kind of major brands like Dell, HP, Lenovo, Acer, Apple, Compaq, Toshiba, Sony, Samsung, Asus. Whenever you want to have laptop repair supports just call us.</li>
-                        <li>we have Trained and skill oriented professional who will provide the reliable customer-oriented service.</li>
+                        <li>We are a team of highly skilled and qualified technicians, providing top-quality laptop and CCTV repair services in Chapra, Saran, Bihar. Our service is recognized as one of the best in the region for reliability and customer satisfaction.</li>
+                        <li>We repair all major laptop brands including Dell, HP, Lenovo, Acer, Apple, Compaq, Toshiba, Sony, Samsung, and Asus. Whether you need quick laptop repairs or professional CCTV installation and maintenance, just give us a call — we’re here to help.</li>
+                        <li>Our trained and service-oriented professionals ensure reliable, customer-focused support for all your technical needs.</li>
                     </ul>
                 </div>
                 <div className="p-3 mx-4">
@@ -57,7 +57,7 @@ let About = () => {
                                         <p className="card-text lead">7+ Year Experience in Mobile Software and Laptop/Desktop Chip Level Repairing </p>
                                         <div>
                                             <p className="card-text lead">Email Id :- manojgarkha@gmail.com </p>
-                                            <p className="card-text lead">Mobile No :- 9852481139</p>
+                                            <p className="card-text lead">Mobile No :- 9852481139 / 9955153569</p>
                                             <div>
                                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                                             </div>

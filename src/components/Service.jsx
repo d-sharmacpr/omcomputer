@@ -7,7 +7,14 @@ import h_comp_chip from '../assets/img/service/head_computer_chip.jpg';
 import h_comp_rep from '../assets/img/service/head_computer_rep.jpg';
 import h_lcd from '../assets/img/service/head_lcd.jpg';
 import h_mobile from '../assets/img/service/head_mobile.jpg';
+import h_cctv from '../assets/img/service/head_cctv.jpg';
+import h_printer from '../assets/img/service/head_printer_rep.jpg';
+import h_refurshib from '../assets/img/service/head_refurbish_laptop.jpg';
 
+
+import sa_cctv_analog_camera from '../assets/img/service/a_cctv_camera_analog.jpg';
+import sa_cctv_ir_bullet_camera from '../assets/img/service/a_cctv_ir_bullet_camera.jpg';
+import sa_cctv_nvr from '../assets/img/service/a_cctv_nvr.jpg';
 import s01_mouse from '../assets/img/service/01_mouse_lapcare.jpg';
 import s02_mouse from '../assets/img/service/02_mouse_lapcare.jpg';
 import s03_mouse from '../assets/img/service/03_mouse_lenovo.jpg'
@@ -43,7 +50,7 @@ let Service = () => {
                 <meta charSet="utf-8" />
                 <title>Om Computer Garkha | Services</title>
                 <link rel="canonical" href="https://omcomputerinfo.in" />
-                <meta name="description" content="Om Computer Garkha Saran Bihar,841311. Computer accessories,Computer/Laptop Repair,Laptop Chip-Level Repair,LCD/LED Repair."/>
+                <meta name="description" content="Om Computer Garkha Saran Bihar,841311. CCTV Camera, Printer Repairing, Refurbished laptop, Computer accessories,Computer/Laptop Repair,Laptop Chip-Level Repair,LCD/LED Repair."/>
                 <meta name="keywords" content="Om Computer,Om Computer Garkha,Garkha,Garkha Saran,Garkha Computer,Computer Garkha,Shop Garkha,Garkha Mobile,LED Garkha,LCD"/>
                 <meta name="author" content="om computer garkha"/>
             </Helmet>
@@ -52,6 +59,7 @@ let Service = () => {
             <section>
                 <div className="container">
                     <h1 className="display-4 text-center mt-3"><b>Our Services</b></h1><hr />
+
                     <div className="row">
                         <div className="col-lg-4  col-md-4 col-sm-12">
                             <div className="card" style={{height:650}}>
@@ -61,7 +69,7 @@ let Service = () => {
                                     <p className="lead">Mouse, Keyboard, Ram , CPU Fan, Cartridge, Ink(Epson, Canon ), Antivirus (Quick heal total/pro,Guardian, K7 ....), VGA Cable,HDMI Cable, Printer Cable, Lamination Paper and so many iitem in best Price.</p>
                                 </div>
                                 <div className="card-footer">
-                                    <small className="text-muted">Last updated 7 Oct 2019 ago</small>
+                                    <small className="text-muted">Last updated 7 Oct 2019 </small>
                                 </div>
                             </div>
                         </div>
@@ -73,7 +81,7 @@ let Service = () => {
                                     <p className="lead">Hard drive crashes,water spilled keyboards, network failures, virus attacks. Data back up and recovery, System board/main board repair, Hard drive upgrade, Video graphics, Optical drive. Windows, Linux and Mac Os Installation, Troubleshooting of Laptop, Desktop</p>
                                 </div>
                                 <div className="card-footer">
-                                    <small className="text-muted">Last updated 7 Oct 2019 ago</small>
+                                    <small className="text-muted">Last updated 7 Oct 2019 </small>
                                 </div>
                             </div>
                         </div>
@@ -88,13 +96,61 @@ let Service = () => {
                                     </p>
                                 </div>
                                 <div className="card-footer">
-                                    <small className="text-muted">Last updated 7 Oct 2019 ago</small>
+                                    <small className="text-muted">Last updated 7 Oct 2019 </small>
                                 </div>
                             </div>
                         </div>
 
                     </div> {/* ROW */}
                     <br />
+
+                    <div className="row">
+                        <div className="col-lg-4  col-md-4 col-sm-12">
+                            <div className="card" style={{height:650}}>
+                                <div><img className="card-img-top" src={h_cctv} alt="Card image cap" height="300" /></div>
+                                <div className="card-body">
+                                    <h4 className="card-title text-center">CCTV Surveillance Solutions</h4> <hr />
+                                    <p className="lead">
+                                    We provides a complete CCTV solution featuring high-resolution cameras (Dome, Bullet, PTZ), reliable DVR/NVR recorders with surveillance-grade storage, robust cabling infrastructure, and secure remote viewing capabilities.</p>
+                                </div>
+                                <div className="card-footer">
+                                    <small className="text-muted">Last updated: 10 Aug 2024</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4  col-md-4 col-sm-12">
+                            <div className="card" style={{height:650}}>
+                                <div><img className="card-img-top" src={h_printer} alt="Card image cap" height="300" /></div>
+                                <div className="card-body">
+                                    <h4 className="card-title text-center">Printer Repair Services</h4> <hr />
+                                    <p className="lead">We offer reliable and affordable printer repair services for all major brands. Our experienced technicians specialize in diagnosing and resolving issues such as paper jams, cartridge problems, connectivity errors, poor print quality, and hardware malfunctions.
+                                    We service a wide range of printers, including HP, Canon, Epson, Brother, Samsung, and Ricoh, ensuring your device runs smoothly and efficiently
+                                    </p>
+                                </div>
+                                <div className="card-footer">
+                                    <small className="text-muted">Last updated:  7 Oct 2019</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4  col-md-4 col-sm-12">
+                            <div className="card" style={{height:650}}>
+                                <div><img className="card-img-top" src={h_refurshib} alt="Card image cap" height="300" /></div>
+                                <div className="card-body">
+                                    <h4 className="card-title text-center">Refurbished Laptops for Sale </h4> <hr />
+                                    <p className="lead">
+                                    we offer a wide range of high-quality refurbished laptops from top brands such as Dell, HP, Lenovo, Acer, and Asus, all at unbeatable prices. Each laptop is carefully tested, verified, and restored to excellent working condition.
+                                    Whether you need a laptop for office work, study, or personal use, we have the right model to fit your needs and budget. Our refurbished laptops come with a warranty and after-sales support.
+                                </p>
+                                </div>
+                                <div className="card-footer">
+                                    <small className="text-muted">Last updated 7 Oct 2019</small>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div> {/* ROW2 */}
+                    <br />
+
                     <div className="row">
                         <div className="col-lg-4  col-md-4 col-sm-12">
                             <div className="card" style={{height:650}}>
@@ -104,7 +160,7 @@ let Service = () => {
                                     <p className="lead">Quick Heal Pro, Quick Heal Total, Guardian Pro/Total, K7 Premium/Total and all other Antivirus please Contact Us @Om Computer.</p>
                                 </div>
                                 <div className="card-footer">
-                                    <small className="text-muted">Last updated 7 Oct 2019 ago</small>
+                                    <small className="text-muted">Last updated 7 Oct 2019 </small>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +172,7 @@ let Service = () => {
                                     <p className="lead">Laptop, Desktop, Monitors (LCD, LED Panels) and CRT Monitors, Mobile Panels and all other please Contact Us @Om Computer.</p>
                                 </div>
                                 <div className="card-footer">
-                                    <small className="text-muted">Last updated 7 Oct 2019 ago</small>
+                                    <small className="text-muted">Last updated 7 Oct 2019 </small>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +184,7 @@ let Service = () => {
                                     <p className="lead">Chip Level Mobile Reparing Contact Us @Om Computer</p>
                                 </div>
                                 <div className="card-footer">
-                                    <small className="text-muted">Last updated 7 Oct 2019 ago</small>
+                                    <small className="text-muted">Last updated 7 Oct 2019 </small>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +202,36 @@ let Service = () => {
             {/* <!-----------------------Computer Assosaries --------------------------------------> */}
             <section>
                 <div className="container">
-                    <h2 className="text-center p-2 bg-info">Computer Accessories</h2><hr className="my-2" />
+                    <h2 className="text-center p-2 bg-info">CCTV / Computer Accessories</h2><hr className="my-2" />
+                    <div className="row">
+                        <div className="col-md-4">
+                            <div className="img-thumbnail">
+                                <div className="card-img-wrap"><img className="card-img-top" src={sa_cctv_analog_camera} alt="mouse" height="300" /></div>
+                                <div className="caption">
+                                    <p className="text-center">CP Plus Analog HD Camera</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="img-thumbnail">
+                                <div className="card-img-wrap"><img className="card-img-top" src={sa_cctv_ir_bullet_camera} alt="mouse" height="300" /></div>
+                                <div className="caption">
+                                    <p className="text-center">CP Plus IR Bullet Camera</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="img-thumbnail">
+                                <div className="card-img-wrap"><img className="card-img-top" src={sa_cctv_nvr} alt="Card image cap" height="300" /></div>
+                                <div className="caption">
+                                    <p className="text-center">CP Plus Network Video Recorder</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br />
+
+
                     <div className="row">
                         <div className="col-md-4">
                             <div className="img-thumbnail">

@@ -8,7 +8,7 @@ let Contact = () => {
                 <meta charSet="utf-8" />
                 <title>Om Computer Garkha | Contact</title>
                 <link rel="canonical" href="https://omcomputerinfo.in" />
-                <meta name="description" content="Om Computer Garkha Saran Bihar,841311. Computer accessories,Computer/Laptop Repair,Laptop Chip-Level Repair,LCD/LED Repair."/>
+                <meta name="description" content="Om Computer Garkha Saran Bihar,841311. CCTV Camera,Printer Repairing, refurbished laptop,  Computer accessories,Computer/Laptop Repair,Laptop Chip-Level Repair,LCD/LED Repair."/>
                 <meta name="keywords" content="Om Computer,Om Computer Garkha,Garkha,Garkha Saran,Garkha Computer,Computer Garkha,Shop Garkha,Garkha Mobile,LED Garkha,LCD"/>
                 <meta name="author" content="om computer garkha"/>
             </Helmet>
@@ -19,7 +19,7 @@ let Contact = () => {
                 <h2 className="section-heading pt-2 text-dark font-weight-bold">Contact us</h2>  <hr/>
                     {/* <!--Section description--> */}
                     <div className="ml-3">
-                        <p>Chapra Road Garkha In Front of Central Bank of India</p>
+                        <p>Chapra Road Garkha In Front of Imam Medical hall, Near Tiwari Market Garkha</p>
                         <p>Garkha, Saran , Bihar, 841311</p>
                         <p>Mob.- 9955153569</p>
                         <p>Email- omcinfo2015@gmail.com</p><br/>
